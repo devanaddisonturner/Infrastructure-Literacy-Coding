@@ -1,0 +1,42 @@
+[
+  {
+    "id": "CA CTE 3.5",
+    "text": "Integrate changing employment trends, societal needs, and economic conditions into career planning",
+    "justification": "Societal needs referenced in career planning context. Does not require analysis of distributional consequences or community health equity. Coded Absent: career planning \u2260 equity analysis."
+  },
+  {
+    "id": "CA CTE 6.11",
+    "text": "Comply with safe handling/disposal per OSHA, EPA, HazCom, MSDS",
+    "justification": "Environmental regulations (EPA) referenced but solely in occupational compliance context. Workers learn to follow disposal rules, not to analyze whether disposal patterns burden specific communities. Coded Absent: regulatory compliance \u2260 equity analysis."
+  },
+  {
+    "id": "CA CTE 7.8",
+    "text": "Explore issues of global significance and document impact on BCT sector",
+    "justification": "Global issues explored but framed as industry impact analysis. Does not require distributional or community health perspective. Coded Absent: industry impact \u2260 community equity."
+  },
+  {
+    "id": "CA CTE 9.6",
+    "text": "Respect individual and cultural differences and recognize the importance of diversity in the workplace",
+    "justification": "Diversity referenced in interpersonal workplace context. Does not address structural inequity in infrastructure siting, funding, or health outcomes. Coded Absent: workplace diversity \u2260 environmental justice."
+  },
+  {
+    "id": "CA CTE D1.2-D1.3",
+    "text": "Understand environmental regulations (CEQA/EIR) that influence design",
+    "justification": "CEQA/EIR are regulatory compliance processes that can include EJ analysis, but the standard requires understanding the regulations as compliance constraints, not evaluating distributional justice. Coded Absent: knowing regulations exist \u2260 applying equity analysis."
+  },
+  {
+    "id": "CA CTE D9.1-D9.6",
+    "text": "Understand, integrate, and employ sustainable construction practices",
+    "justification": "Sustainability standards address energy efficiency and material performance. None require analysis of who benefits from or is burdened by these choices. Coded Absent: technical sustainability \u2260 environmental justice."
+  },
+  {
+    "id": "CPC30220 CPCCOM1012",
+    "text": "Work effectively and sustainably in the construction industry",
+    "justification": "Sustainability scope = workplace waste reduction and efficiency. Does not require evaluating distributional consequences of construction on surrounding communities. Coded Absent: workplace sustainability \u2260 community equity."
+  },
+  {
+    "id": "C&G 202-2 / 101-2",
+    "text": "Know about environmental considerations in relation to construction",
+    "justification": "Environmental considerations = energy efficiency, waste management, material selection. Does not address community health impacts or distributional justice. Coded Absent: environmental awareness \u2260 environmental justice."
+  }
+]
