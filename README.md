@@ -1,7 +1,7 @@
 # Infrastructure Literacy Curriculum Coding
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-pending-blue.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18893500.svg)](https://doi.org/10.5281/zenodo.18893500)
 
 Three-layer systematic content analysis of construction career and technical education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom).
 
