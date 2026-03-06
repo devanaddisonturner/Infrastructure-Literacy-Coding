@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Infrastructure Literacy Curriculum Coding: Three-Layer Content Analysis of Construction Credentials"
+message: "If you use this dataset or code, please cite as below."
+type: dataset
+authors:
+  - family-names: Addison-Turner
+    given-names: Devan Cantrell
+    orcid: "https://orcid.org/0000-0002-2511-3680"
+    affiliation: "Stanford University, Doerr School of Sustainability"
+repository-code: "https://github.com/daddisonturner/Infrastructure-Literacy-Coding"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-03-06"
+keywords:
+  - infrastructure literacy
+  - environmental justice
+  - construction education
+  - curriculum analysis
+  - content analysis
+  - vocational education
+  - career and technical education
+abstract: >-
+  Three-layer systematic content analysis of construction career and
+  technical education curricula across four credentials in three national
+  systems (United States, Australia, United Kingdom). Layer 0 searches
+  15 primary environmental justice terms; Layer 1 expands to 30
+  near-synonyms; Layer 2 thematically audits 344 individual learning
+  outcomes against three binary equity criteria. Finding: zero percent
+  of outcomes address environmental justice, community health equity,
+  or distributional consequences of infrastructure decisions.
