@@ -1,11 +1,16 @@
-# Temporary/regenerated files
-output/*_unblinded.xlsx
+# Generated figure outputs (generate_figure1.py)
+figures/Figure1_Infrastructure_Literacy_Model.png
+figures/Figure1_Infrastructure_Literacy_Model.svg
+figures/Figure1_Infrastructure_Literacy_Model.jpg
+figures/Figure1_Infrastructure_Literacy_Model_grayscale.png
+
+# Generated coding workbook (generate_coding_results.py)
+output/
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
-.eggs/
 *.egg-info/
 dist/
 build/
@@ -18,3 +23,4 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+*.swo
