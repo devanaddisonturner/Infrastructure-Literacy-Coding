@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18893500.svg)](https://doi.org/10.5281/zenodo.18893500)
 
-Three-layer systematic content analysis of construction career and technical education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom).
+Three-layer systematic content analysis of construction career and technical education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom). Also includes the reproducible generation script for **Figure 1: Conceptual Model of Infrastructure Literacy**.
 
 **Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Environmental Education Research*.
 
@@ -33,9 +33,14 @@ Across 344 individually coded learning outcomes from four construction credentia
 ### Requirements
 
 - Python 3.8 or higher
-- openpyxl library
+- `openpyxl` — coding workbook generation
+- `matplotlib`, `numpy`, `Pillow` — Figure 1 generation
 
-### No Code Required
+Install all at once:
+
+```
+pip install -r requirements.txt
+```
 
 If you just want to view the coding data, open `output/EJT_Binary_Coding_Results.xlsx` in Excel. No Python installation needed.
 
@@ -164,18 +169,57 @@ main(output_file="results.xlsx", unblinded=True, coder_name="Your Name")
 
 Output is saved to `output/EJT_Binary_Coding_Results.xlsx`.
 
+
+## Figure 1 Generation
+
+`generate_figure1.py` produces the conceptual model diagram in three formats.
+
+### Quick start
+```
+python generate_figure1.py
+```
+
+Outputs are saved to `figures/`:
+
+| File | Format | Use |
+|------|--------|-----|
+| `Figure1_Infrastructure_Literacy_Model.png` | PNG, 300 DPI | Journal submission |
+| `Figure1_Infrastructure_Literacy_Model.svg` | SVG, vector | Editing / scaling |
+| `Figure1_Infrastructure_Literacy_Model.jpg` | JPEG, 300 DPI | Supplementary |
+
+### Options
+```
+python generate_figure1.py --output-dir ./figures
+python generate_figure1.py --grayscale-test
+```
+
+### Makefile shortcuts
+```
+make figure
+make coding
+make all
+make install
+```
+
+
+
 ## Repository Structure
 
 ```
 Infrastructure-Literacy-Coding/
-  README.md                      This file
-  LICENSE                        CC-BY-4.0
-  CITATION.cff                   Citation metadata for Zenodo/GitHub
-  requirements.txt               Python dependencies
-  generate_coding_results.py     Main script (generates xlsx)
+  README.md                        This file
+  LICENSE                          CC-BY-4.0
+  CITATION.cff                     Citation metadata for Zenodo/GitHub
+  Makefile                         Shortcuts for all generation tasks
+  requirements.txt                 Python dependencies (all scripts)
+  generate_coding_results.py       Generates EJT coding workbook (xlsx)
+  generate_figure1.py              Generates Figure 1 (PNG/SVG/JPG)
+  test_generate_figure1.py         Test suite for Figure 1 script
   data/
-    layer2_outcomes.json          344 coded learning outcomes
-    borderline_cases.json         8 borderline cases with justifications
+    layer2_outcomes.json            344 coded learning outcomes
+    borderline_cases.json           8 borderline cases with justifications
+  figures/
+    (generated figure files saved here)
   output/
     (generated xlsx saved here)
 ```
