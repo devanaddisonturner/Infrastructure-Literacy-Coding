@@ -536,6 +536,13 @@ def generate_figure(output_dir, grayscale_test=False):
             facecolor='white', edgecolor='none',
         )
 
+        # Re-save PNG via PIL to guarantee DPI metadata is
+        # embedded in the file header (matplotlib does not
+        # always write pHYs chunk reliably across backends).
+        _png_tmp = Image.open(paths['png'])
+        _png_tmp.save(paths['png'], dpi=(DPI, DPI))
+        _png_tmp.close()
+             
         paths['svg'] = os.path.join(
             output_dir, f'{BASENAME}.svg')
         fig.savefig(
