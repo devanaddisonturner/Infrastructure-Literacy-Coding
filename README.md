@@ -229,32 +229,45 @@ The test suite (27 tests) verifies file existence, dimensions, DPI, SVG validity
 ### Makefile shortcuts
 
 ```
-make figure             # PNG + SVG + JPG
+make figure             # PNG + SVG + JPG (Figure 1)
 make figure-grayscale   # also grayscale proof
 make coding             # EJT coding workbook
 make all                # figure + coding + tests
 make install            # install all dependencies
+make download           # download source credential PDFs
+make replicate          # run keyword search replication
+make r-replicate        # run replication from R
+make r-data             # load outcome data into R
 ```
 
 ## Repository Structure
 
 ```
 Infrastructure-Literacy-Coding/
-  README.md                        This file
-  LICENSE                          CC-BY-4.0
-  CITATION.cff                     Citation metadata for Zenodo/GitHub
-  Makefile                         Shortcuts for all generation tasks
-  requirements.txt                 Python dependencies (all scripts)
-  generate_coding_results.py       Generates EJT coding workbook (xlsx)
-  generate_figure1.py              Generates Figure 1 (PNG/SVG/JPG)
-  test_generate_figure1.py         Test suite for Figure 1 script
+  README.md                           This file
+  LICENSE                             CC-BY-4.0
+  CITATION.cff                        Citation metadata for Zenodo/GitHub (v1.0.2)
+  Makefile                            Shortcuts for all generation tasks
+  requirements.txt                    Python dependencies (all scripts)
+  generate_coding_results.py          Generates EJT coding workbook (xlsx)
+  generate_figure1.py                 Generates Figure 1 — Conceptual Model (PNG/SVG/JPG)
+  generate_pipeline_figure.py         Generates pipeline figure (300 dpi, CONSORT/PRISMA style)
+  replicate_keyword_search.py         Keyword search replication script (45 terms, 431 outcomes)
+  download_irr_source_documents.py    Downloads source credential PDFs; runs keyword search
+  run_in_r.R                          R runner — three methods: system(), reticulate, jsonlite
+  test_generate_figure1.py            Test suite for Figure 1 script (27 tests)
+  test_replicate_keyword_search.py    Test suite for replication script (34 tests)
   data/
-    layer2_outcomes.json            431 coded learning outcomes
-    borderline_cases.json           8 borderline cases with justifications
+    layer2_outcomes.json              431 coded learning outcomes (4 credentials, 3 systems)
+    borderline_cases.json             8 borderline cases with coding justifications
+    README.md                         Data directory documentation
   figures/
-    (generated figure files saved here)
+    Figure_Pipeline_two-col.png       Pipeline figure — Nature two-column (300 dpi)
+    Figure_Pipeline_jvet.png          Pipeline figure — JVET width (300 dpi)
+    Figure_Pipeline_two-col.tiff      Pipeline figure — TIFF LZW (Nature/Cell preferred)
+    Figure_Pipeline_two-col_grayscale.png  Pipeline figure — grayscale proof (600 dpi)
   output/
-    (generated xlsx saved here)
+    (generated xlsx saved here — gitignored)
 ```
 
 ## Data Files
