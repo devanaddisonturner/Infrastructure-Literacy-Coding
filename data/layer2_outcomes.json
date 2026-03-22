@@ -3278,9 +3278,9 @@
   {
     "num": 274,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA2002",
-    "description": "Use carpentry tools and equipment",
+    "unit": "Core Unit: CPCCCA2002",
+    "outcome_id": "CPCCCA2002-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3290,9 +3290,9 @@
   {
     "num": 275,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA2011",
-    "description": "Handle carpentry materials",
+    "unit": "Core Unit: CPCCCA2002",
+    "outcome_id": "CPCCCA2002-E2",
+    "description": "Select, check and use tools and equipment",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3302,9 +3302,9 @@
   {
     "num": 276,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3001",
-    "description": "Carry out general demolition of minor building structures",
+    "unit": "Core Unit: CPCCCA2002",
+    "outcome_id": "CPCCCA2002-E3",
+    "description": "Clean up",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3314,9 +3314,9 @@
   {
     "num": 277,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3002",
-    "description": "Carry out setting out",
+    "unit": "Core Unit: CPCCCA2011",
+    "outcome_id": "CPCCCA2011-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3326,9 +3326,9 @@
   {
     "num": 278,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3003",
-    "description": "Install flooring systems",
+    "unit": "Core Unit: CPCCCA2011",
+    "outcome_id": "CPCCCA2011-E2",
+    "description": "Manually handle, sort, stack and store materials",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3338,9 +3338,9 @@
   {
     "num": 279,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3004",
-    "description": "Construct and erect wall frames",
+    "unit": "Core Unit: CPCCCA2011",
+    "outcome_id": "CPCCCA2011-E3",
+    "description": "Prepare for mechanical handling of materials",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3350,9 +3350,9 @@
   {
     "num": 280,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3005",
-    "description": "Construct ceiling frames",
+    "unit": "Core Unit: CPCCCA2011",
+    "outcome_id": "CPCCCA2011-E4",
+    "description": "Check and store tools and equipment",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3362,9 +3362,9 @@
   {
     "num": 281,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3006",
-    "description": "Erect roof trusses",
+    "unit": "Core Unit: CPCCCA3001",
+    "outcome_id": "CPCCCA3001-E1",
+    "description": "Plan and prepare the demolition of minor building structures",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3374,9 +3374,9 @@
   {
     "num": 282,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3007",
-    "description": "Construct pitched roofs",
+    "unit": "Core Unit: CPCCCA3001",
+    "outcome_id": "CPCCCA3001-E2",
+    "description": "Demolish minor building structures",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3386,9 +3386,9 @@
   {
     "num": 283,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3008",
-    "description": "Construct eaves",
+    "unit": "Core Unit: CPCCCA3001",
+    "outcome_id": "CPCCCA3001-E3",
+    "description": "Clean up after carrying out general demolition of minor building structures",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3398,9 +3398,9 @@
   {
     "num": 284,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3010",
-    "description": "Install windows and doors",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3410,9 +3410,9 @@
   {
     "num": 285,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3016",
-    "description": "Construct, assemble and install timber external stairs",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E2",
+    "description": "Show site boundaries",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3422,9 +3422,9 @@
   {
     "num": 286,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3017",
-    "description": "Install exterior cladding",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E3",
+    "description": "Set out first line for building alignment",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3434,9 +3434,9 @@
   {
     "num": 287,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3024",
-    "description": "Install lining, panelling and moulding",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E4",
+    "description": "Set out right-angled corners",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3446,9 +3446,9 @@
   {
     "num": 288,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3025",
-    "description": "Read and interpret plans, specifications and drawings for carpentry work",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E5",
+    "description": "Install other building lines",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3458,9 +3458,9 @@
   {
     "num": 289,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCA3028",
-    "description": "Erect and dismantle formwork for footings and slabs on ground",
+    "unit": "Core Unit: CPCCCA3002",
+    "outcome_id": "CPCCCA3002-E6",
+    "description": "Check building lines for square",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3470,9 +3470,9 @@
   {
     "num": 290,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCM2006",
-    "description": "Apply basic levelling procedures",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3482,9 +3482,9 @@
   {
     "num": 291,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCM2008",
-    "description": "Erect and dismantle restricted height scaffolding",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E2",
+    "description": "Set out and install support structure",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3494,9 +3494,9 @@
   {
     "num": 292,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCM2012",
-    "description": "Work safely at heights",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E3",
+    "description": "Install bearers",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3506,9 +3506,9 @@
   {
     "num": 293,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCCO2013",
-    "description": "Carry out concreting to simple forms",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E4",
+    "description": "Install floor joists",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3518,21 +3518,21 @@
   {
     "num": 294,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCOM1012",
-    "description": "Work effectively and sustainably in the construction industry",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E5",
+    "description": "Install flooring",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
     "result": "Absent",
-    "notes": "Sustainability referenced but scope is workplace efficiency and waste reduction, not community equity or distributional justice"
+    "notes": ""
   },
   {
     "num": 295,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCOM1014",
-    "description": "Conduct workplace communication",
+    "unit": "Core Unit: CPCCCA3003",
+    "outcome_id": "CPCCCA3003-E6",
+    "description": "Clean up",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3542,9 +3542,9 @@
   {
     "num": 296,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCOM1015",
-    "description": "Carry out measurements and calculations",
+    "unit": "Core Unit: CPCCCA3004",
+    "outcome_id": "CPCCCA3004-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3554,9 +3554,9 @@
   {
     "num": 297,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCOM3001",
-    "description": "Perform construction calculations to determine carpentry material requirements",
+    "unit": "Core Unit: CPCCCA3004",
+    "outcome_id": "CPCCCA3004-E2",
+    "description": "Construct wall frames",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3566,9 +3566,9 @@
   {
     "num": 298,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCOM3006",
-    "description": "Carry out levelling operations",
+    "unit": "Core Unit: CPCCCA3004",
+    "outcome_id": "CPCCCA3004-E3",
+    "description": "Erect frames",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3578,9 +3578,9 @@
   {
     "num": 299,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCWHS1001",
-    "description": "Prepare to work safely in the construction industry",
+    "unit": "Core Unit: CPCCCA3004",
+    "outcome_id": "CPCCCA3004-E4",
+    "description": "Clean up",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3590,9 +3590,9 @@
   {
     "num": 300,
     "credential": "CPC30220 (Australia)",
-    "unit": "Core Unit",
-    "outcome_id": "CPCCWHS2001",
-    "description": "Apply WHS requirements, policies and procedures in the construction industry",
+    "unit": "Core Unit: CPCCCA3005",
+    "outcome_id": "CPCCCA3005-E1",
+    "description": "Plan and prepare",
     "crit_a": 0,
     "crit_b": 0,
     "crit_c": 0,
@@ -3601,6 +3601,1050 @@
   },
   {
     "num": 301,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3005",
+    "outcome_id": "CPCCCA3005-E2",
+    "description": "Set out ceiling",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 302,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3005",
+    "outcome_id": "CPCCCA3005-E3",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 303,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3006",
+    "outcome_id": "CPCCCA3006-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 304,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3006",
+    "outcome_id": "CPCCCA3006-E2",
+    "description": "Erect roof trusses",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 305,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3006",
+    "outcome_id": "CPCCCA3006-E3",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 306,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3007",
+    "outcome_id": "CPCCCA3007-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 307,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3007",
+    "outcome_id": "CPCCCA3007-E2",
+    "description": "Set out, prepare and erect pitched roof members",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 308,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3007",
+    "outcome_id": "CPCCCA3007-E3",
+    "description": "Install roof support",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 309,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3007",
+    "outcome_id": "CPCCCA3007-E4",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 310,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3008",
+    "outcome_id": "CPCCCA3008-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 311,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3008",
+    "outcome_id": "CPCCCA3008-E2",
+    "description": "Construct framework for eaves or soffits",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 312,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3008",
+    "outcome_id": "CPCCCA3008-E3",
+    "description": "Line and clad eaves and soffits",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 313,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3008",
+    "outcome_id": "CPCCCA3008-E4",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 314,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 315,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E2",
+    "description": "Install window units",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 316,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E3",
+    "description": "Prepare internal and external door openings, and construct and fix jamb",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 317,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E4",
+    "description": "Install door",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 318,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E5",
+    "description": "Install cavity door and door unit",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 319,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3010",
+    "outcome_id": "CPCCCA3010-E6",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 320,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3016",
+    "outcome_id": "CPCCCA3016-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 321,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3016",
+    "outcome_id": "CPCCCA3016-E2",
+    "description": "Set out stair components",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 322,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3016",
+    "outcome_id": "CPCCCA3016-E3",
+    "description": "Assemble and install stairs",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 323,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3016",
+    "outcome_id": "CPCCCA3016-E4",
+    "description": "Fit handrails, balustrade and finish",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 324,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3016",
+    "outcome_id": "CPCCCA3016-E5",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 325,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 326,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E2",
+    "description": "Prepare exterior wall frames for cladding",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 327,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E3",
+    "description": "Fix thermal and moisture management",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 328,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E4",
+    "description": "Set out, cut and fix horizontal weatherboards",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 329,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E5",
+    "description": "Fix panelling",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 330,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3017",
+    "outcome_id": "CPCCCA3017-E6",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 331,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3024",
+    "outcome_id": "CPCCCA3024-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 332,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3024",
+    "outcome_id": "CPCCCA3024-E2",
+    "description": "Prepare surface for lining/panelling",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 333,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3024",
+    "outcome_id": "CPCCCA3024-E3",
+    "description": "Install lining/panelling",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 334,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3024",
+    "outcome_id": "CPCCCA3024-E4",
+    "description": "Cut and fix profiled architrave mouldings",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 335,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3024",
+    "outcome_id": "CPCCCA3024-E5",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 336,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3025",
+    "outcome_id": "CPCCCA3025-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 337,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3025",
+    "outcome_id": "CPCCCA3025-E2",
+    "description": "Interpret construction plans, drawings and their features",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 338,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3025",
+    "outcome_id": "CPCCCA3025-E3",
+    "description": "Locate key features on site plan",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 339,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3025",
+    "outcome_id": "CPCCCA3025-E4",
+    "description": "Determine project requirements and plan project",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 340,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3028",
+    "outcome_id": "CPCCCA3028-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 341,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3028",
+    "outcome_id": "CPCCCA3028-E2",
+    "description": "Erect formwork",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 342,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3028",
+    "outcome_id": "CPCCCA3028-E3",
+    "description": "Strip formwork and prepare for reuse",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 343,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCA3028",
+    "outcome_id": "CPCCCA3028-E4",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 344,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2006",
+    "outcome_id": "CPCCCM2006-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 345,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2006",
+    "outcome_id": "CPCCCM2006-E2",
+    "description": "Set up and use levelling device",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 346,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2006",
+    "outcome_id": "CPCCCM2006-E3",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 347,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2008",
+    "outcome_id": "CPCCCM2008-E1",
+    "description": "Plan to erect scaffolding up to 4 metres",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 348,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2008",
+    "outcome_id": "CPCCCM2008-E2",
+    "description": "Prepare to erect scaffolding up to 4 metres",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 349,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2008",
+    "outcome_id": "CPCCCM2008-E3",
+    "description": "Erect scaffolding up to 4 metres",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 350,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2008",
+    "outcome_id": "CPCCCM2008-E4",
+    "description": "Inspect, repair and alter scaffolding up to 4 metres",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 351,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2008",
+    "outcome_id": "CPCCCM2008-E5",
+    "description": "Dismantle scaffolding up to 4 metres and clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 352,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2012",
+    "outcome_id": "CPCCCM2012-E1",
+    "description": "Identify task requirements",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 353,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2012",
+    "outcome_id": "CPCCCM2012-E2",
+    "description": "Access and assess work area",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 354,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCM2012",
+    "outcome_id": "CPCCCM2012-E3",
+    "description": "Conduct work tasks",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 355,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 356,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E2",
+    "description": "Erect simple formwork",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 357,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E3",
+    "description": "Place and tie reinforcement",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 358,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E4",
+    "description": "Place concrete",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 359,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E5",
+    "description": "Strip simple formwork",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 360,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCCO2013",
+    "outcome_id": "CPCCCO2013-E6",
+    "description": "Clean up",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 361,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1012",
+    "outcome_id": "CPCCOM1012-E1",
+    "description": "Plan and perform work",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 362,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1012",
+    "outcome_id": "CPCCOM1012-E2",
+    "description": "Work effectively in a team",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 363,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1012",
+    "outcome_id": "CPCCOM1012-E3",
+    "description": "Determine own learning needs",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 364,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1012",
+    "outcome_id": "CPCCOM1012-E4",
+    "description": "Comply with environmental and resource efficiency requirements",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 365,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1014",
+    "outcome_id": "CPCCOM1014-E1",
+    "description": "Gather, convey and receive information",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 366,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1014",
+    "outcome_id": "CPCCOM1014-E2",
+    "description": "Use routine communication techniques",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 367,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1014",
+    "outcome_id": "CPCCOM1014-E3",
+    "description": "Use visual communication techniques",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 368,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1014",
+    "outcome_id": "CPCCOM1014-E4",
+    "description": "Participate in simple meeting processes",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 369,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1015",
+    "outcome_id": "CPCCOM1015-E1",
+    "description": "Obtain measurements",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 370,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM1015",
+    "outcome_id": "CPCCOM1015-E2",
+    "description": "Perform basic calculations",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 371,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3001",
+    "outcome_id": "CPCCOM3001-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 372,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3001",
+    "outcome_id": "CPCCOM3001-E2",
+    "description": "Calculate area and volume of construction materials for the project",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 373,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3001",
+    "outcome_id": "CPCCOM3001-E3",
+    "description": "Calculate the requirements for construction for the project",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 374,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3001",
+    "outcome_id": "CPCCOM3001-E4",
+    "description": "Check and record results",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 375,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3006",
+    "outcome_id": "CPCCOM3006-E1",
+    "description": "Plan and prepare",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 376,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3006",
+    "outcome_id": "CPCCOM3006-E2",
+    "description": "Carry out levelling procedures using rise and fall method",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 377,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3006",
+    "outcome_id": "CPCCOM3006-E3",
+    "description": "Carry out levelling procedures using height of collimation",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 378,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCOM3006",
+    "outcome_id": "CPCCOM3006-E4",
+    "description": "Calculate distances using stadia lines",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 379,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS1001",
+    "outcome_id": "CPCCWHS1001-E1",
+    "description": "Identify health and safety legislative requirements of construction work",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 380,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS1001",
+    "outcome_id": "CPCCWHS1001-E2",
+    "description": "Identify construction hazards and risk control measures",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 381,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS1001",
+    "outcome_id": "CPCCWHS1001-E3",
+    "description": "Identify health and safety communication and reporting processes",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 382,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS1001",
+    "outcome_id": "CPCCWHS1001-E4",
+    "description": "Identify incident and emergency response procedures",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 383,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS2001",
+    "outcome_id": "CPCCWHS2001-E1",
+    "description": "Identify and assess risks",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 384,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS2001",
+    "outcome_id": "CPCCWHS2001-E2",
+    "description": "Identify hazardous materials and other hazards on work sites",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 385,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS2001",
+    "outcome_id": "CPCCWHS2001-E3",
+    "description": "Plan and prepare for safe work practices",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 386,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS2001",
+    "outcome_id": "CPCCWHS2001-E4",
+    "description": "Apply safe work practices",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 387,
+    "credential": "CPC30220 (Australia)",
+    "unit": "Core Unit: CPCCWHS2001",
+    "outcome_id": "CPCCWHS2001-E5",
+    "description": "Follow emergency procedures",
+    "crit_a": 0,
+    "crit_b": 0,
+    "crit_c": 0,
+    "result": "Absent",
+    "notes": ""
+  },
+  {
+    "num": 388,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.1",
@@ -3612,7 +4656,7 @@
     "notes": ""
   },
   {
-    "num": 302,
+    "num": 389,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.2",
@@ -3624,7 +4668,7 @@
     "notes": ""
   },
   {
-    "num": 303,
+    "num": 390,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.3",
@@ -3636,7 +4680,7 @@
     "notes": ""
   },
   {
-    "num": 304,
+    "num": 391,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.4",
@@ -3648,7 +4692,7 @@
     "notes": ""
   },
   {
-    "num": 305,
+    "num": 392,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.5",
@@ -3660,7 +4704,7 @@
     "notes": ""
   },
   {
-    "num": 306,
+    "num": 393,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-1.6",
@@ -3672,7 +4716,7 @@
     "notes": ""
   },
   {
-    "num": 307,
+    "num": 394,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-2.1",
@@ -3684,7 +4728,7 @@
     "notes": ""
   },
   {
-    "num": 308,
+    "num": 395,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-2.2",
@@ -3696,7 +4740,7 @@
     "notes": ""
   },
   {
-    "num": 309,
+    "num": 396,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 201: Health, Safety and Welfare",
     "outcome_id": "201-2.3",
@@ -3708,7 +4752,7 @@
     "notes": ""
   },
   {
-    "num": 310,
+    "num": 397,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-1",
@@ -3720,7 +4764,7 @@
     "notes": ""
   },
   {
-    "num": 311,
+    "num": 398,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-2",
@@ -3732,7 +4776,7 @@
     "notes": "Environmental considerations = sustainability/energy context, not community equity"
   },
   {
-    "num": 312,
+    "num": 399,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-3",
@@ -3744,7 +4788,7 @@
     "notes": ""
   },
   {
-    "num": 313,
+    "num": 400,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-4",
@@ -3756,7 +4800,7 @@
     "notes": ""
   },
   {
-    "num": 314,
+    "num": 401,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-5",
@@ -3768,7 +4812,7 @@
     "notes": ""
   },
   {
-    "num": 315,
+    "num": 402,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-6",
@@ -3780,7 +4824,7 @@
     "notes": ""
   },
   {
-    "num": 316,
+    "num": 403,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 202: Building Construction Principles",
     "outcome_id": "202-7",
@@ -3792,7 +4836,7 @@
     "notes": ""
   },
   {
-    "num": 317,
+    "num": 404,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 207: First Fix Flooring and Roofing",
     "outcome_id": "207-1",
@@ -3804,7 +4848,7 @@
     "notes": ""
   },
   {
-    "num": 318,
+    "num": 405,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 207: First Fix Flooring and Roofing",
     "outcome_id": "207-2",
@@ -3816,7 +4860,7 @@
     "notes": ""
   },
   {
-    "num": 319,
+    "num": 406,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 207: First Fix Flooring and Roofing",
     "outcome_id": "207-3",
@@ -3828,7 +4872,7 @@
     "notes": ""
   },
   {
-    "num": 320,
+    "num": 407,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 207: First Fix Flooring and Roofing",
     "outcome_id": "207-4",
@@ -3840,7 +4884,7 @@
     "notes": ""
   },
   {
-    "num": 321,
+    "num": 408,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 207: First Fix Flooring and Roofing",
     "outcome_id": "207-5",
@@ -3852,7 +4896,7 @@
     "notes": ""
   },
   {
-    "num": 322,
+    "num": 409,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 208: First Fix Frames, Partitions, Stairs",
     "outcome_id": "208-1",
@@ -3864,7 +4908,7 @@
     "notes": ""
   },
   {
-    "num": 323,
+    "num": 410,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 208: First Fix Frames, Partitions, Stairs",
     "outcome_id": "208-2",
@@ -3876,7 +4920,7 @@
     "notes": ""
   },
   {
-    "num": 324,
+    "num": 411,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 208: First Fix Frames, Partitions, Stairs",
     "outcome_id": "208-3",
@@ -3888,7 +4932,7 @@
     "notes": ""
   },
   {
-    "num": 325,
+    "num": 412,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 209: Second Fixing Operations",
     "outcome_id": "209-1",
@@ -3900,7 +4944,7 @@
     "notes": ""
   },
   {
-    "num": 326,
+    "num": 413,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 209: Second Fixing Operations",
     "outcome_id": "209-2",
@@ -3912,7 +4956,7 @@
     "notes": ""
   },
   {
-    "num": 327,
+    "num": 414,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 209: Second Fixing Operations",
     "outcome_id": "209-3",
@@ -3924,7 +4968,7 @@
     "notes": ""
   },
   {
-    "num": 328,
+    "num": 415,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 209: Second Fixing Operations",
     "outcome_id": "209-4",
@@ -3936,7 +4980,7 @@
     "notes": ""
   },
   {
-    "num": 329,
+    "num": 416,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 210: Carpentry Maintenance",
     "outcome_id": "210-1",
@@ -3948,7 +4992,7 @@
     "notes": ""
   },
   {
-    "num": 330,
+    "num": 417,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 210: Carpentry Maintenance",
     "outcome_id": "210-2",
@@ -3960,7 +5004,7 @@
     "notes": ""
   },
   {
-    "num": 331,
+    "num": 418,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 210: Carpentry Maintenance",
     "outcome_id": "210-3",
@@ -3972,7 +5016,7 @@
     "notes": ""
   },
   {
-    "num": 332,
+    "num": 419,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 211: Circular Saw",
     "outcome_id": "211-1",
@@ -3984,7 +5028,7 @@
     "notes": ""
   },
   {
-    "num": 333,
+    "num": 420,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 211: Circular Saw",
     "outcome_id": "211-2",
@@ -3996,7 +5040,7 @@
     "notes": ""
   },
   {
-    "num": 334,
+    "num": 421,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Unit 211: Circular Saw",
     "outcome_id": "211-3",
@@ -4008,7 +5052,7 @@
     "notes": ""
   },
   {
-    "num": 335,
+    "num": 422,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-1",
@@ -4020,7 +5064,7 @@
     "notes": ""
   },
   {
-    "num": 336,
+    "num": 423,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-2",
@@ -4032,7 +5076,7 @@
     "notes": "Environmental = sustainability/waste; not community equity or EJ"
   },
   {
-    "num": 337,
+    "num": 424,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-3",
@@ -4044,7 +5088,7 @@
     "notes": ""
   },
   {
-    "num": 338,
+    "num": 425,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-4",
@@ -4056,7 +5100,7 @@
     "notes": ""
   },
   {
-    "num": 339,
+    "num": 426,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-5",
@@ -4068,7 +5112,7 @@
     "notes": ""
   },
   {
-    "num": 340,
+    "num": 427,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-6",
@@ -4080,7 +5124,7 @@
     "notes": ""
   },
   {
-    "num": 341,
+    "num": 428,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "101-7",
@@ -4092,7 +5136,7 @@
     "notes": ""
   },
   {
-    "num": 342,
+    "num": 429,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "113-1",
@@ -4104,7 +5148,7 @@
     "notes": ""
   },
   {
-    "num": 343,
+    "num": 430,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "114-1",
@@ -4116,7 +5160,7 @@
     "notes": ""
   },
   {
-    "num": 344,
+    "num": 431,
     "credential": "City & Guilds 6706-23 (UK)",
     "unit": "Prerequisite L1 Units",
     "outcome_id": "115-1",
