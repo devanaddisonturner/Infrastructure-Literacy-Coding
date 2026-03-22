@@ -249,26 +249,28 @@ DEFAULT_SOURCE_DIR = SCRIPT_DIR.parent / "irr_source_documents"
 
 # ── Layer 0: 15 Primary Keyword Terms ─────────────────────────────────────────
 # Sourced from: EJT_Binary_Coding_Results_v6.xlsx, Layer 0 - Primary Coding
+# Updated v1.0.2 (March 2026): aligned to EPA/EJSCREEN standard EJ vocabulary;
+# original domain-based terms superseded by more methodologically defensible list.
 LAYER0_TERMS = [
     # Environmental Justice Domain
     "environmental justice",
     "environmental racism",
-    "environmental equity",
-    "environmental injustice",
+    "environmental burden",
+    "just transition",
     # Health Equity Domain
     "health equity",
     "health disparities",
-    "health outcomes",
     "community health",
-    # Distributional Consequences Domain
-    "distributive consequences",
-    "distributional impact",
+    "environmental hazard",
+    # Distributional Burden Domain
+    "distributional consequences",
     "disproportionate burden",
-    "disproportionate impact",
-    # Community Participation Domain
-    "community voice",
-    "community engagement",
-    "community participation",
+    "overburdened communities",
+    "disadvantaged communities",
+    # Exposure and Impact Domain
+    "cumulative impact",
+    "pollution exposure",
+    "toxic exposure",
 ]
 
 # ── Layer 1: 30 Near-Synonym Terms ────────────────────────────────────────────
