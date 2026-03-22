@@ -5,3 +5,4 @@ openpyxl>=3.0.0
 matplotlib>=3.5.0
 numpy>=1.21.0
 Pillow>=9.0.0
+pypdf>=3.0.0

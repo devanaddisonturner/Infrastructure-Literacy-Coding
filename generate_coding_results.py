@@ -7,7 +7,7 @@ Generates: EJT_Binary_Coding_Results.xlsx
 Supplementary material for:
     Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual
     Framework for Understanding How Construction Career Students Think
-    About Environmental Justice. Environmental Education Research.
+    About Environmental Justice. Journal of Vocational Education and Training.
 
 This script performs a three-layer systematic content analysis of
 construction career and technical education (CTE) curricula across four
@@ -20,13 +20,13 @@ Three-layer design:
     Layer 1 -- Near-Synonyms: 30 additional terms addressing the concern
               that primary terms may be domain-specific jargon absent
               from vocational documents.
-    Layer 2 -- Thematic Audit: 344 individual learning outcomes coded
+    Layer 2 -- Thematic Audit: 431 individual learning outcomes coded
               against three binary equity criteria.
 
 Credentials analyzed:
     1. NCCER Core Curriculum, 6th Edition (USA) -- 103 sub-objectives
     2. CA CTE Building & Construction Standards (USA) -- 170 indicators
-    3. CPC30220 Certificate III in Carpentry (Australia) -- 27 units
+    3. CPC30220 Certificate III in Carpentry (Australia) -- 114 elements (element level)
     4. City & Guilds 6706-23 Level 2 Diploma (UK) -- 44 learning outcomes
 
 Usage:
@@ -129,7 +129,7 @@ CREDENTIALS = [
         "short": "CPC30220 (Australia)",
         "header": "CPC30220\nCert III Carpentry\n(Australia)",
         "system": "Australia",
-        "hierarchy": "Qualification > Unit of Competency > Element > Performance Criterion",
+        "hierarchy": "Qualification > Unit of Competency > Element of Competency (coded level) > Element > Performance Criterion",
         "coded_level": "Unit of Competency",
         "n_coded": 27,
         "n_finest": "~87 (at Element level)",
@@ -241,7 +241,7 @@ SOURCE_DOCUMENTS = [
     {
         "credential": "CA CTE Standards (USA)",
         "title": "Career Technical Education Model Curriculum Standards: "
-                 "Building and Construction Trades (CDE, 2013)",
+                 "Building and Construction Trades (CDE, 2013; published 2017)",
         "url": "https://www.cde.ca.gov/ci/ct/sf/documents/buildingconstruct.pdf",
         "accessed": "2025-12-15",
         "note": "Publicly available PDF.",
@@ -283,27 +283,27 @@ METH_GRANULARITY_NOTE = (
     'The Australian training package defines "Elements" as "the essential '
     'outcomes" (see training.gov.au unit documents: "Elements describe the '
     'essential outcomes"). CPC30220 was coded at the Unit of Competency '
-    "level (27 core units) rather than the Element level (~87 elements "
+    "level (element level, 114 elements across 27 core units). Element-level coding was completed "
     "across those units, based on verified samples averaging 3.25 elements "
-    "per unit). This means CPC30220 is coded at a coarser structural grain "
-    "than the other three credentials, which were coded at their respective "
+    "using official unit PDFs from training.gov.au (March 2026). All four credentials are now coded at "
+    "their respective "
     "sub-unit levels.\n\n"
     "Verified element counts from training.gov.au PDFs:\n"
     "  - CPCCCM2006 Apply basic levelling procedures: 3 elements\n"
     "  - CPCCCA3004 Construct and erect wall frames: 4 elements\n"
     "  - CPCCCA3005 Construct ceiling frames: 3 elements\n"
     "  - CPCCCA3006 Erect roof trusses: 3 elements\n\n"
-    "Average: 3.25 elements per unit x 27 core units = ~87 element-level "
+    "Coded structural levels: NCCER (sub-objective), CA CTE (performance indicator), CPC30220 (element), City & Guilds (learning outcome). "
     "outcomes."
 )
 
 METH_INVARIANCE = (
     "The study's central finding -- complete absence of equity-related "
     "content (0% across all three criteria) -- is invariant across coding "
-    "granularity. Whether CPC30220 contributes 27 unit-level rows or ~87 "
+    "granularity. CPC30220 was recoded at element level (114 rows) in March 2026 using official unit PDFs from training.gov.au. "
     'element-level rows, every row codes as "Absent" on all three equity '
-    "criteria. The granularity difference affects the reported denominator "
-    "(344 vs. ~404 total outcomes) but does not affect the binary finding "
+    "criteria. All four credentials are now coded at their respective sub-unit structural level. "
+    "(431 total outcomes) and does not affect the binary finding "
     "or the study's conclusions."
 )
 
@@ -313,8 +313,8 @@ METH_THREE_LAYER = (
     "Layer 1 -- Near-Synonyms: 30 additional terms searched to address "
     "domain-jargon concern (0 of 120 occurrences in equity-relevant "
     "contexts).\n"
-    "Layer 2 -- Thematic Audit: 344 learning outcomes individually coded "
-    "against three binary equity criteria (0 of 344 met any criterion)."
+    "Layer 2 -- Thematic Audit: 431 learning outcomes individually coded "
+    "against three binary equity criteria (0 of 431 met any criterion)."
 )
 
 
@@ -496,7 +496,7 @@ def build_layer1(wb, coder_label):
 
 
 def build_layer2(wb, coder_label):
-    """Build Layer 2: Thematic Audit of 344 individual learning outcomes."""
+    """Build Layer 2: Thematic Audit of 431 individual learning outcomes."""
     ws = wb.create_sheet("Layer 2 - Thematic Audit")
 
     # Load data
@@ -787,7 +787,7 @@ def main(output_file=None, unblinded=None, coder_name=None):
     print("Building Layer 1 -- Near-Synonyms (30 terms)...")
     build_layer1(wb, coder_label)
 
-    print("Building Layer 2 -- Thematic Audit (344 outcomes)...")
+    print("Building Layer 2 -- Thematic Audit (431 outcomes)...")
     build_layer2(wb, coder_label)
 
     print("Building Methodology...")

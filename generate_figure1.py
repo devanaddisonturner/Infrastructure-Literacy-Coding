@@ -4,14 +4,14 @@
 Generate Figure 1: Conceptual Model of Infrastructure Literacy
 ===============================================================
 
-JEE Submission: "Infrastructure Literacy: A Conceptual Framework
+JVET Submission: "Infrastructure Literacy: A Conceptual Framework
 for Understanding How Construction Career Students Think About
 Environmental Justice"
 
-Authors: Devan Cantrell Addison-Turner & Gretchen Cara Daily
-Journal: The Journal of Environmental Education
-         (Routledge / Taylor & Francis)
-Submitted: February 8, 2026
+Author:  Devan Cantrell Addison-Turner
+Journal: Journal of Vocational Education and Training
+         (Taylor & Francis)
+Submitted: March 2026
 
 Description:
     Three mutually reinforcing mechanisms (Problem Recognition,
@@ -536,13 +536,6 @@ def generate_figure(output_dir, grayscale_test=False):
             facecolor='white', edgecolor='none',
         )
 
-        # Re-save PNG via PIL to guarantee DPI metadata is
-        # embedded in the file header (matplotlib does not
-        # always write pHYs chunk reliably across backends).
-        _png_tmp = Image.open(paths['png'])
-        _png_tmp.save(paths['png'], dpi=(DPI, DPI))
-        _png_tmp.close()
-             
         paths['svg'] = os.path.join(
             output_dir, f'{BASENAME}.svg')
         fig.savefig(
@@ -628,10 +621,13 @@ def main():
     )
     parser.add_argument(
         '--output-dir', '-o',
-        default=os.path.dirname(os.path.abspath(__file__)),
+        default=os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            'figures',
+        ),
         help=(
             'Directory for output files '
-            '(default: script directory)'
+            '(default: figures/ subfolder)'
         ),
     )
     parser.add_argument(

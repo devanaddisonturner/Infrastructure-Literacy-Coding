@@ -5,11 +5,11 @@
 
 Three-layer systematic content analysis of construction career and technical education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom). Also includes the reproducible generation script for **Figure 1: Conceptual Model of Infrastructure Literacy**.
 
-**Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Environmental Education Research*.
+**Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Journal of Vocational Education and Training*.
 
 ## Key Finding
 
-Across 344 individually coded learning outcomes from four construction credentials in three national systems, **zero outcomes** address environmental justice, community health equity, or the distributional consequences of infrastructure decisions. The absence is structural, not terminological.
+Across 431 individually coded learning outcomes from four construction credentials in three national systems, **zero outcomes** address environmental justice, community health equity, or the distributional consequences of infrastructure decisions. The absence is structural, not terminological.
 
 ## Three-Layer Design
 
@@ -17,7 +17,7 @@ Across 344 individually coded learning outcomes from four construction credentia
 |-------|--------|-------|--------|
 | **Layer 0** | Binary keyword search | 15 primary EJ terms x 4 credentials | 0 of 60 |
 | **Layer 1** | Near-synonym expansion | 30 additional terms x 4 credentials | 0 of 120 |
-| **Layer 2** | Thematic audit | 344 individual learning outcomes x 3 binary criteria | 0 of 344 |
+| **Layer 2** | Thematic audit | 431 individual learning outcomes x 3 binary criteria | 0 of 431 |
 
 ## Credentials Analyzed
 
@@ -25,7 +25,7 @@ Across 344 individually coded learning outcomes from four construction credentia
 |-----------|--------|-------------|---|
 | NCCER Core Curriculum (6th ed.) | USA | Sub-Objective | 103 |
 | CA CTE Building & Construction Standards | USA | Performance Indicator | 170 |
-| CPC30220 Certificate III in Carpentry | Australia | Unit of Competency | 27 |
+| CPC30220 Certificate III in Carpentry | Australia | Element of Competency | 114 |
 | City & Guilds 6706-23 Level 2 Diploma | UK | Learning Outcome | 44 |
 
 ## Quick Start
@@ -37,10 +37,11 @@ Across 344 individually coded learning outcomes from four construction credentia
 - `matplotlib`, `numpy`, `Pillow` — Figure 1 generation
 
 Install all at once:
-
 ```
 pip install -r requirements.txt
 ```
+
+### No Code Required
 
 If you just want to view the coding data, open `output/EJT_Binary_Coding_Results.xlsx` in Excel. No Python installation needed.
 
@@ -58,6 +59,14 @@ If you just want to view the coding data, open `output/EJT_Binary_Coding_Results
 **Step 2: Download this repository**
 
 Option A (zip): Click the green "Code" button on GitHub, then "Download ZIP". Unzip to a folder you can find easily (e.g., `C:\Users\YourName\Desktop\Infrastructure-Literacy-Coding`).
+
+**Alternative: Windows PowerShell**
+
+PowerShell is built into all modern Windows versions (press Win + X → Windows PowerShell):
+```
+cd $env:USERPROFILE/Downloads/Infrastructure-Literacy-Coding
+python generate_coding_results.py
+```
 
 Option B (git):
 ```
@@ -89,6 +98,12 @@ Option C — IDLE Shell (>>> prompt):
 ```python
 >>> import os; os.chdir(r"C:\Users\YourName\Desktop\Infrastructure-Literacy-Coding")
 >>> exec(open("generate_coding_results.py").read())
+```
+
+Option D — R / RStudio:
+```r
+source("run_in_r.R")   # loads helper functions
+run_method_a()         # runs generate_coding_results.py via system()
 ```
 
 ---
@@ -142,6 +157,14 @@ Option C — IDLE Shell (>>> prompt):
 >>> exec(open("generate_coding_results.py").read())
 ```
 
+Option D — R / RStudio (macOS or Windows):
+```r
+source("run_in_r.R")   # loads helper functions
+run_method_a()         # runs Python via system() — no extra R packages needed
+outcomes <- load_outcomes_in_r()  # load 431 outcomes directly into R (no Python needed)
+```
+See `run_in_r.R` for full documentation of all three R methods.
+
 ---
 
 ### Changing Settings
@@ -169,12 +192,12 @@ main(output_file="results.xlsx", unblinded=True, coder_name="Your Name")
 
 Output is saved to `output/EJT_Binary_Coding_Results.xlsx`.
 
-
 ## Figure 1 Generation
 
 `generate_figure1.py` produces the conceptual model diagram in three formats.
 
 ### Quick start
+
 ```
 python generate_figure1.py
 ```
@@ -188,20 +211,30 @@ Outputs are saved to `figures/`:
 | `Figure1_Infrastructure_Literacy_Model.jpg` | JPEG, 300 DPI | Supplementary |
 
 ### Options
+
 ```
-python generate_figure1.py --output-dir ./figures
-python generate_figure1.py --grayscale-test
+python generate_figure1.py --output-dir ./figures   # default
+python generate_figure1.py --grayscale-test         # also save grayscale proof
 ```
+
+### Tests
+
+```
+python test_generate_figure1.py      # standalone
+python -m pytest test_generate_figure1.py -v
+```
+
+The test suite (27 tests) verifies file existence, dimensions, DPI, SVG validity, grayscale differentiation, geometric correctness, and idempotency.
 
 ### Makefile shortcuts
-```
-make figure
-make coding
-make all
-make install
-```
 
-
+```
+make figure             # PNG + SVG + JPG
+make figure-grayscale   # also grayscale proof
+make coding             # EJT coding workbook
+make all                # figure + coding + tests
+make install            # install all dependencies
+```
 
 ## Repository Structure
 
@@ -216,7 +249,7 @@ Infrastructure-Literacy-Coding/
   generate_figure1.py              Generates Figure 1 (PNG/SVG/JPG)
   test_generate_figure1.py         Test suite for Figure 1 script
   data/
-    layer2_outcomes.json            344 coded learning outcomes
+    layer2_outcomes.json            431 coded learning outcomes
     borderline_cases.json           8 borderline cases with justifications
   figures/
     (generated figure files saved here)
@@ -228,11 +261,11 @@ Infrastructure-Literacy-Coding/
 
 ### `data/layer2_outcomes.json`
 
-JSON array of 344 objects, each containing:
+JSON array of 431 objects, each containing:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `num` | int | Sequential row number (1-344) |
+| `num` | int | Sequential row number (1-431) |
 | `credential` | string | Source credential name |
 | `unit` | string | Module/unit within credential |
 | `outcome_id` | string | Official outcome identifier |
@@ -263,10 +296,10 @@ The four credentials use different structural hierarchies. Each was coded at the
 
 - **NCCER:** Sub-Objectives (finest grain available)
 - **CA CTE:** Performance Indicators (finest grain available)
-- **CPC30220:** Units of Competency (coarser than Element level; see Methodology sheet)
+- **CPC30220:** Elements of Competency (114 elements across 27 core units; extracted from official unit PDFs on training.gov.au, March 2026)
 - **City & Guilds:** Learning Outcomes (finest grain available)
 
-The zero-percent finding is invariant across granularity levels. Coding CPC30220 at Element level (~87 elements) would increase the denominator while maintaining the zero numerator.
+The zero-percent finding is invariant across granularity levels. All four credentials are coded at their respective sub-unit structural level.
 
 ## Replication
 
@@ -278,6 +311,54 @@ To independently verify these results:
 
 The NCCER Core Curriculum requires institutional purchase. The other three credentials are publicly available at the URLs documented in the script.
 
+
+## Replication — Keyword Search Verification
+
+To independently verify the zero-percent finding:
+
+### Step 1 — Download source credential documents (first time only)
+```
+python3 download_irr_source_documents.py        # macOS / Linux
+python  download_irr_source_documents.py        # Windows Command Prompt
+python  download_irr_source_documents.py        # Windows PowerShell
+```
+Downloads the three publicly available credential PDFs (CA CTE, CPC30220, City & Guilds)
+and produces a verification archive. NCCER requires institutional purchase (see script header).
+
+### Step 2 — Run keyword search replication
+```
+python3 replicate_keyword_search.py             # macOS / Linux
+python  replicate_keyword_search.py             # Windows
+```
+Searches all 45 terms (15 primary + 30 near-synonym) across all four credentials and
+compares results against the primary coding. Expected output: 0 discrepancies, 0% confirmed.
+
+### Options
+```
+python3 replicate_keyword_search.py --credential A          # single credential
+python3 replicate_keyword_search.py --layer 0               # Layer 0 only
+python3 replicate_keyword_search.py --credential C --layer 1
+python3 download_irr_source_documents.py --search-only      # skip download
+```
+
+### Run from R
+```r
+source("run_in_r.R")
+run_method_a()                    # full replication via system()
+run_method_a(credential = "B")   # single credential
+run_method_b()                    # via reticulate (Python in-process)
+outcomes <- load_outcomes_in_r()  # load 431 outcomes into R data frame (no Python)
+```
+
+> **IDLE users:** See the Usage section in each script's header for step-by-step IDLE instructions.
+
+### Makefile shortcuts
+```
+make download          # download source PDFs
+make replicate         # run keyword search
+make replicate-search-only  # search only, no download
+```
+
 ## Citation
 
 If you use this dataset or code, please cite:
@@ -288,7 +369,7 @@ If you use this dataset or code, please cite:
   title   = {Infrastructure Literacy: A Conceptual Framework for
              Understanding How Construction Career Students Think
              About Environmental Justice},
-  journal = {Environmental Education Research},
+  journal = {Journal of Vocational Education and Training},
   year    = {2026},
 }
 ```

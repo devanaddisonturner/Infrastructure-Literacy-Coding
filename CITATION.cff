@@ -7,11 +7,10 @@ authors:
     given-names: Devan Cantrell
     orcid: "https://orcid.org/0000-0002-2511-3680"
     affiliation: "Stanford University, Doerr School of Sustainability"
-doi: "10.5281/zenodo.18893500"
 repository-code: "https://github.com/daddisonturner/Infrastructure-Literacy-Coding"
 license: CC-BY-4.0
-version: "1.0.0"
-date-released: "2026-03-06"
+version: "1.0.2"
+date-released: "2026-03-22"
 keywords:
   - infrastructure literacy
   - environmental justice
@@ -25,7 +24,19 @@ abstract: >-
   technical education curricula across four credentials in three national
   systems (United States, Australia, United Kingdom). Layer 0 searches
   15 primary environmental justice terms; Layer 1 expands to 30
-  near-synonyms; Layer 2 thematically audits 344 individual learning
-  outcomes against three binary equity criteria. Finding: zero percent
-  of outcomes address environmental justice, community health equity,
-  or distributional consequences of infrastructure decisions.
+  near-synonyms; Layer 2 thematically audits 431 individual learning
+  outcomes across four credentials (NCCER 103, CA CTE 170, CPC30220 114
+  elements, City and Guilds 44). Finding: zero percent of outcomes
+  address environmental justice, community health equity, or
+  distributional consequences of infrastructure decisions. Companion
+  to manuscript submitted to Journal of Vocational Education and Training.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Addison-Turner
+      given-names: Devan Cantrell
+      orcid: "https://orcid.org/0000-0002-2511-3680"
+  title: "Infrastructure Literacy: A Conceptual Framework for Understanding
+    How Construction Career Students Think About Environmental Justice"
+  journal: "Journal of Vocational Education and Training"
+  year: 2026
