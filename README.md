@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18893500.svg)](https://doi.org/10.5281/zenodo.18893500)
 
-Three-layer systematic content analysis of construction career and technical education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom). Also includes the reproducible generation script for **Figure 1: Conceptual Model of Infrastructure Literacy**.
+Three-layer systematic content analysis of Construction Career and Technical Education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom). Also includes the reproducible generation script for **Figure 1: Conceptual Model of Infrastructure Literacy**.
 
 **Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Journal of Vocational Education and Training*.
 
