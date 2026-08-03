@@ -1,11 +1,11 @@
 # Infrastructure Literacy Curriculum Coding
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18893500.svg)](https://doi.org/10.5281/zenodo.18893500)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19156228.svg)](https://doi.org/10.5281/zenodo.19156228)
 
 Three-layer systematic content analysis of Construction Career and Technical Education (CTE) curricula across four credentials in three national systems (United States, Australia, United Kingdom). Also includes the reproducible generation script for **Figure 1: Conceptual Model of Infrastructure Literacy**.
 
-**Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Journal of Vocational Education and Training*.
+**Companion to:** Addison-Turner, D. C. (2026). Infrastructure Literacy: A Conceptual Framework for Understanding How Construction Career Students Think About Environmental Justice. *Journal of Vocational Education & Training*.
 
 ## Key Finding
 
@@ -70,7 +70,7 @@ python generate_coding_results.py
 
 Option B (git):
 ```
-git clone https://github.com/daddisonturner/Infrastructure-Literacy-Coding.git
+git clone https://github.com/devanaddisonturner/Infrastructure-Literacy-Coding.git
 ```
 
 **Step 3: Install the dependency**
@@ -127,7 +127,7 @@ Option A (zip): Click the green "Code" button on GitHub, then "Download ZIP". Un
 
 Option B (git):
 ```
-git clone https://github.com/daddisonturner/Infrastructure-Literacy-Coding.git
+git clone https://github.com/devanaddisonturner/Infrastructure-Literacy-Coding.git
 ```
 
 **Step 3: Install the dependency**
@@ -245,7 +245,7 @@ make r-data             # load outcome data into R
 ```
 Infrastructure-Literacy-Coding/
   README.md                           This file
-  LICENSE                             CC-BY-4.0
+  LICENSE                             CC-BY-NC-4.0
   CITATION.cff                        Citation metadata for Zenodo/GitHub (v1.0.2)
   Makefile                            Shortcuts for all generation tasks
   requirements.txt                    Python dependencies (all scripts)
@@ -382,7 +382,7 @@ If you use this dataset or code, please cite:
   title   = {Infrastructure Literacy: A Conceptual Framework for
              Understanding How Construction Career Students Think
              About Environmental Justice},
-  journal = {Journal of Vocational Education and Training},
+  journal = {Journal of Vocational Education \& Training},
   year    = {2026},
 }
 ```
